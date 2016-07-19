@@ -48,7 +48,11 @@ html, body {
   cursor: pointer;
 }
 
-
+.bottom-clip {
+  //Clip path for bottom of header images
+  webkit-clip-path: polygon(0% 0%, 100% 0, 100% 87%, 50% 100%, 1% 87%);
+  clip-path: polygon(0% 0%, 100% 0, 100% 87%, 50% 100%, 1% 87%);
+}
 
 
 
@@ -61,11 +65,6 @@ header {
   img {
     width: 100%; 
     height: auto;
-    .bottom-clip {
-    	//Clip path for bottom of header images
-    	webkit-clip-path: polygon(0% 0%, 100% 0, 100% 87%, 50% 100%, 1% 87%);
-    	clip-path: polygon(0% 0%, 100% 0, 100% 87%, 50% 100%, 1% 87%);
-    }
   }  
   nav {
     position: absolute;
