@@ -22,16 +22,14 @@ body {
   margin: 5% auto;
   cursor: pointer;
 }
-.bottom-clip {
-  webkit-clip-path: polygon(0% 0%, 100% 0, 100% 87%, 50% 100%, 1% 87%);
-  clip-path: polygon(0% 0%, 100% 0, 100% 87%, 50% 100%, 1% 87%);
-}
 header {
   position: relative;
 }
 header img {
   width: 100%;
   height: auto;
+  webkit-clip-path: polygon(0% 0%, 100% 0, 100% 87%, 50% 100%, 1% 87%);
+  clip-path: polygon(0% 0%, 100% 0, 100% 87%, 50% 100%, 1% 87%);
 }
 header nav {
   position: absolute;
