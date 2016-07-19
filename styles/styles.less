@@ -14,33 +14,55 @@
 
 
 
-// HEADER
+// ELEMENTS
 
-nav {
-  background-color: @charcoal;
-  opacity: 0.5;
-  height: 5%;
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+// HEADER
+header {
+  background-image: url(/images/and4.jpg);
+  height: 25%;
   width: 100%;
-  ul {
-    font-size: 1em; // tutorial says "0"
-    padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  
+  nav {
+    background-color: @black;
+    opacity: 0.5;
     height: 5%;
     width: 100%;
-//    opacity: 1;
-    li {
-      display: inline-block;
-      a {
-        display: block;
-        color: white;
-        text-decoration: none;
-        opacity: 1;
-//        background-color: white;
-//        font-size: 12px;
-//        padding 30px;
+    
+    .group {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      margin: 0 auto;
+      text-align: center;
+    }
+    ul {
+      font-size: 1em;
+      padding: 0;
+      height: 5%;
+      width: 100%;
+      li {
+        display: inline-block;
+        a {
+          display: block;
+          color: white;
+          text-decoration: none;
+          opacity: 1;
+        }
       }
     }
   }
 }
+
 
 
 
