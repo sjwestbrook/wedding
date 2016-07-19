@@ -1,3 +1,6 @@
+* {
+  outline: 1px dotted red;
+}
 html,
 body {
   padding: 0;
