@@ -25,11 +25,6 @@ ul li a {
   text-decoration: none;
   padding: 0 3%;
 }
-#gift-registry ul li a img .store-logo {
-  width: 20%;
-  height: auto;
-  padding: 2 5%;
-}
 .teal-button {
   background-color: #04B486;
   border: none;
@@ -184,6 +179,11 @@ header .header-text .button {
   .span_1_of_2 {
     width: 100%;
   }
+}
+#gift-registry img .store-logo {
+  width: 20%;
+  height: auto;
+  padding: 0 5%;
 }
 #google-map {
   margin: 0 auto;
