@@ -54,7 +54,6 @@ ul {
 
 
 
-
 // CLASSES
 .teal-button {
   background-color: @teal;
@@ -247,6 +246,7 @@ header {
   ul {
     li {
       a {
+      	padding: 0;
       	img {
 	    //.store-logo {
 	      width: 20%;
@@ -260,7 +260,36 @@ header {
 }
 
 
-
+// GOOGLE MAP - LOCATION
 #google-map {
  margin: 0 auto;	
+}
+
+
+
+// FOOTER
+footer {
+  background-color: @black;
+  color: @white;
+  h3 {
+    font-size: 1.25em;
+      i {
+       color: @teal;
+    }
+  }
+  ul {
+    li {
+      a {
+      	 i {
+      	   color: @black;
+      	   background-color: @white;
+      	   border-radius: 50%;
+      	 }
+      }
+    }
+  }
+  p {
+    font-size: .8em;
+    color: @white;
+  }
 }
