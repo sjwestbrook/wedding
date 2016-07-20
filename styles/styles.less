@@ -13,6 +13,10 @@
 @teal: #04B486;
 
 
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
 
 // ELEMENTS
 
@@ -244,6 +248,7 @@ header {
 
 // GIFT REGISTRY
 #gift-registry {
+  font-family: @sans-serif;
   ul {
     li {
       a {
@@ -273,8 +278,11 @@ footer {
   background-color: @black;
   color: @white;
   font-family: @sans-serif;
+  text-align: center;
+  padding: 5% 0;
+  //letter-spacing: 0.3em;
   h3 {
-    font-size: 1.25em;
+    font-size: 1em;
       i {
        color: @teal;
     }
@@ -284,6 +292,7 @@ footer {
       a {
       	 i {
       	   color: @black;
+      	   padding 2%;
       	   background-color: @white;
       	   border-radius: 50%;
       	 }
@@ -291,6 +300,6 @@ footer {
     }
   }
   p {
-    font-size: .8em;
+    font-size: .6em;
   }
 }
