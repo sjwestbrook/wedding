@@ -23,6 +23,11 @@ ul li {
 }
 ul li a {
   text-decoration: none;
+  padding: 0 3%;
+}
+ul li a img .store-logo {
+  width: 10%;
+  height: auto;
 }
 .teal-button {
   background-color: #04B486;
@@ -178,4 +183,7 @@ header .header-text .button {
   .span_1_of_2 {
     width: 100%;
   }
+}
+#google-map {
+  margin: 0 auto;
 }
