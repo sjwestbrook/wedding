@@ -180,7 +180,7 @@ header .header-text .button {
     width: 100%;
   }
 }
-#gift-registry img .store-logo {
+#gift-registry ul li a img {
   width: 20%;
   height: auto;
   padding: 0 5%;
