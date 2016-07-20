@@ -25,9 +25,10 @@ ul li a {
   text-decoration: none;
   padding: 0 3%;
 }
-img .store-logo {
-  width: 10%;
+#gift-registry ul li a img .store-logo {
+  width: 20%;
   height: auto;
+  padding: 2 5%;
 }
 .teal-button {
   background-color: #04B486;
