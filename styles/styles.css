@@ -200,7 +200,7 @@ header .header-text .button {
   font-weight: 300;
 }
 #people {
-  background-image: url(images/flag3.jpg);
+  background-image: url(../images/flag3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -211,7 +211,7 @@ header .header-text .button {
 #people .person {
   padding: 2em;
   background-color: #1C1C1C;
-  opacity: 0.7;
+  opacity: 0.8;
   width: 80%;
   margin: 5%;
 }
