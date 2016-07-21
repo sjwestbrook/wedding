@@ -201,8 +201,7 @@ header .header-text .button {
 #people .person {
   padding: 2em;
   background-color: #1C1C1C;
-  opacity: 0.8;
-  height: 25%;
+  opacity: 0.5;
   width: 80%;
   margin: 5%;
 }
@@ -213,10 +212,11 @@ header .header-text .button {
   font-family: 'Vesper Libre', serif;
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: .5em;
 }
 #people .person .relationship {
   font-family: 'Vesper Libre', serif;
-  font-size: .6em;
+  font-size: .8em;
   font-weight: bold;
 }
 .section {
