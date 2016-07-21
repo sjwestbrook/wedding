@@ -1,11 +1,7 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-transform: uppercase;
-  letter-spacing: 0.3em;
+.paragraphs {
+  font-family: 'Vesper Libre', serif;
+  line-height: 1.2em;
+  font-size: 1em;
 }
 * {
   outline: 1px dotted red;
@@ -88,9 +84,7 @@ header nav ul li a {
   opacity: 1;
 }
 header .header-text {
-  position: absolute;
-  top: 28%;
-  left: 37%;
+  margin-top: 25%;
   color: #ffffff;
   text-align: center;
 }
@@ -137,12 +131,30 @@ header .header-text .button {
   cursor: pointer;
   text-transform: uppercase;
 }
+#parents {
+  text-align: center;
+}
+#parents h4 {
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+}
+#parents h3 {
+  font-family: 'Vesper Libre', serif;
+  font-size: 1em;
+}
+#parents .invitation {
+  font-family: 'Raleway', sans-serif;
+  font-size: .8em;
+}
 .storyline {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   align-content: center;
+  font-family: 'Vesper Libre', serif;
+  line-height: 1.2em;
+  font-size: 1em;
 }
 .section {
   clear: both;
@@ -191,7 +203,9 @@ header .header-text .button {
   }
 }
 #gift-registry {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Vesper Libre', serif;
+  line-height: 1.2em;
+  font-size: 1em;
 }
 #gift-registry ul li a {
   padding: 0;
