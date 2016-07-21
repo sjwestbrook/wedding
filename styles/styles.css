@@ -3,6 +3,15 @@
   line-height: 1.2em;
   font-size: 1em;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
 * {
   outline: 1px dotted red;
 }
@@ -49,6 +58,10 @@ ul li a {
   webkit-clip-path: polygon(0% 0%, 100% 0, 100% 87%, 50% 100%, 1% 87%);
   clip-path: polygon(0% 0%, 100% 0, 100% 87%, 50% 100%, 1% 87%);
 }
+.circle-image {
+  max-width: 80%;
+  max-height: auto;
+}
 header {
   position: relative;
 }
@@ -84,7 +97,6 @@ header nav ul li a {
   opacity: 1;
 }
 header .header-text {
-  margin-top: 25%;
   color: #ffffff;
   text-align: center;
 }
@@ -93,6 +105,7 @@ header .header-text h2 {
   font-size: 1.5em;
   font-weight: 300;
   margin: 0 auto -3%;
+  text-transform: none;
 }
 header .header-text h1 {
   font-family: 'Vesper Libre', serif;
