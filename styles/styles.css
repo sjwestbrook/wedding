@@ -97,6 +97,10 @@ header nav ul li a {
   opacity: 1;
 }
 header .header-text {
+  position: absolute;
+  top: 28%;
+  left: 37%;
+  margin-top: 25%;
   color: #ffffff;
   text-align: center;
 }
@@ -195,13 +199,19 @@ header .header-text .button {
 #our-story .storyline h4 {
   font-weight: 300;
 }
+#people {
+  background-image: url(images/flag3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #people h3 {
   font-family: 'Raleway', sans-serif;
 }
 #people .person {
   padding: 2em;
   background-color: #1C1C1C;
-  opacity: 0.5;
+  opacity: 0.7;
   width: 80%;
   margin: 5%;
 }
