@@ -24,12 +24,19 @@
 
 .section-icon {
   color: white;
-  background-color: @mdgrey;
-  font-size: .8em;
+  background-color: @ltgrey;
+  font-size: .6em;
   padding: 2%;
   border-radius: 50%;
 }
   
+.more {
+  text-decoration: none;
+  color: @white;
+  background-color: @ltgrey;
+  padding: 2% 3%;
+}
+
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 0.3em;
@@ -384,13 +391,29 @@ header {
 
 
 // BLOG
-.icon-p {
-  margin: 0 auto;
-  text-align: center;
-  i {
-    .section-icon;	
+
+#blog-entries {
+  .entry {
+    text-align: left;
+    .icon-p {
+      margin: 0 auto;
+      i {
+        .section-icon;	
+      }
+    }
+    h4 {
+      color: @ltgrey;
+      font-size: .8em;
+      margin: 0 auto;
+    }
+    .entry {
+      a {
+        .more; 
+      }
+    }		
   }
 }
+
 
 
 // END BLOG
