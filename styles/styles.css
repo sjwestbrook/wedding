@@ -370,16 +370,19 @@ header .header-text .button {
   text-transform: uppercase;
 }
 #rsvp {
-  font-family: 'Raleway', sans-serif;
   background-image: url(images/flag1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  margin: 5%;
+  padding: 15% 0;
 }
 #rsvp h2 {
   color: white;
 }
 #rsvp form {
+  background-color: #ffffff;
   margin: 5% auto;
 }
 #rsvp form label {
@@ -388,8 +391,8 @@ header .header-text .button {
   font-size: .8em;
 }
 #rsvp form input {
-  color: #1C1C1C;
-  background-color: #BDBDBD;
+  color: #848484;
+  background-color: #D8D8D8;
   border-radius: 5px;
 }
 #rsvp form button {
