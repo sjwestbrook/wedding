@@ -216,22 +216,18 @@ header .header-text .button {
   opacity: 0.6;
   width: 80%;
   margin: 5%;
-  /*float: clear;*/
 }
 #people .person img {
   width: 40%;
-  float: left;
 }
 #people .person .quote {
   font-family: 'Vesper Libre', serif;
-  float: right;
 }
 #people .person .name {
   font-family: 'Vesper Libre', serif;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: .5em;
-  float: right;
 }
 #people .person .relationship {
   font-family: 'Vesper Libre', serif;
