@@ -448,16 +448,37 @@ header {
 // RSVP
 
 // END RSVP
-
+#rsvp {
+  font-family: @sans-serif;
+  form {
+    label {
+      text-transform: uppercase;
+      color: @mdgrey;
+      font-size: .8em;
+    }
+    input {
+      color: @black;
+      background-color: @mdgrey;
+      border-radius: 5px;
+    }
+    button {
+      .teal-button;
+      width: 90%;
+    }
+  }
+}
 
 
 
 // GALLERY
-.icon-p {
-  margin: 0 auto;
-  text-align: center;
-  i {
-    .section-icon;	
+#gallery {
+  font-family: @sans-serif;
+  .icon-p {
+    margin: 0 auto;
+    text-align: center;
+    i {
+      .section-icon;	
+    }
   }
 }
 
@@ -469,6 +490,8 @@ header {
 
 // GIFT REGISTRY
 #gift-registry {
+  margin-bottom: 6%;
+  font-family: @sans-serif;
   .icon-p {
     margin: 0 auto;
     text-align: center;
