@@ -229,6 +229,7 @@ header .header-text .button {
   font-family: 'Raleway', sans-serif;
 }
 #people .person {
+  font-family: 'Raleway', sans-serif;
   padding: 1em;
   background-color: #1C1C1C;
   opacity: 0.6;
@@ -241,18 +242,19 @@ header .header-text .button {
 #people .person .quote {
   font-family: 'Vesper Libre', serif;
   font-size: .8em;
-  line-height: 1em;
+  line-height: 1.5em;
 }
 #people .person .name {
   font-family: 'Vesper Libre', serif;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: .5em;
+  margin-bottom: 0;
 }
 #people .person .relationship {
   font-family: 'Vesper Libre', serif;
   font-size: .6em;
   font-weight: bold;
+  margin-top: 0;
 }
 .section {
   clear: both;
