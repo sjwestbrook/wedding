@@ -238,7 +238,7 @@ header .header-text .button {
 }
 #people .person img {
   width: 25%;
-  float: lft;
+  float: left;
   margin: 5% 5% 0 0;
 }
 #people .person .person-text .quote {
