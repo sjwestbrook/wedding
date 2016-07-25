@@ -5,10 +5,16 @@
 }
 .section-icon {
   color: white;
-  background-color: #BDBDBD;
-  font-size: .8em;
+  background-color: #D8D8D8;
+  font-size: .6em;
   padding: 2%;
   border-radius: 50%;
+}
+.more {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #D8D8D8;
+  padding: 2% 3%;
 }
 h1,
 h2,
@@ -222,8 +228,8 @@ header .header-text .button {
 }
 #people .icon-p i {
   color: white;
-  background-color: #BDBDBD;
-  font-size: .8em;
+  background-color: #D8D8D8;
+  font-size: .6em;
   padding: 2%;
   border-radius: 50%;
 }
@@ -306,25 +312,38 @@ header .header-text .button {
     width: 100%;
   }
 }
-.icon-p {
-  margin: 0 auto;
-  text-align: center;
+#blog-entries .entry {
+  text-align: left;
 }
-.icon-p i {
+#blog-entries .entry .icon-p {
+  margin: 0 auto;
+}
+#blog-entries .entry .icon-p i {
   color: white;
-  background-color: #BDBDBD;
-  font-size: .8em;
+  background-color: #D8D8D8;
+  font-size: .6em;
   padding: 2%;
   border-radius: 50%;
 }
+#blog-entries .entry h4 {
+  color: #D8D8D8;
+  font-size: .8em;
+  margin: 0 auto;
+}
+#blog-entries .entry .entry a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #D8D8D8;
+  padding: 2% 3%;
+}
 .icon-p {
   margin: 0 auto;
   text-align: center;
 }
 .icon-p i {
   color: white;
-  background-color: #BDBDBD;
-  font-size: .8em;
+  background-color: #D8D8D8;
+  font-size: .6em;
   padding: 2%;
   border-radius: 50%;
 }
@@ -339,8 +358,8 @@ header .header-text .button {
 }
 #gift-registry .icon-p i {
   color: white;
-  background-color: #BDBDBD;
-  font-size: .8em;
+  background-color: #D8D8D8;
+  font-size: .6em;
   padding: 2%;
   border-radius: 50%;
 }
