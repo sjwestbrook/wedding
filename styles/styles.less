@@ -33,8 +33,9 @@
 .more {
   text-decoration: none;
   color: @white;
-  background-color: @ltgrey;
-  font-size: .8em;
+  background-color: @mdgrey;
+  font-size: .7em;
+  letter-spacing: .4em;
   padding: 1% 2%;
   margin-top: 4%;
   border-radius: 3%;
@@ -411,7 +412,7 @@ header {
     .entry {
       text-align: left;
       width: 30%;
-      margin: auto;
+      margin: 0 auto;
       img {
       	max-width: 100%;
       	height: auto;
@@ -450,11 +451,17 @@ header {
 
 
 // RSVP
-
-// END RSVP
 #rsvp {
   font-family: @sans-serif;
+  background-image: url(images/flag1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h2 {
+    color: white;
+  }
   form {
+    margin: 5% auto;
     label {
       text-transform: uppercase;
       color: @mdgrey;
@@ -472,6 +479,7 @@ header {
   }
 }
 
+// END RSVP
 
 
 // GALLERY
