@@ -370,7 +370,7 @@ header .header-text .button {
   text-transform: uppercase;
 }
 #rsvp {
-  background-image: url(images/flag1.jpg);
+  background-image: url(../images/flag1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
