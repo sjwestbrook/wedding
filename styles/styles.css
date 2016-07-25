@@ -9,6 +9,7 @@
   font-size: .8em;
   padding: 2%;
   border-radius: 50%;
+  text-align: center;
 }
 h1,
 h2,
@@ -209,10 +210,12 @@ header .header-text .button {
   font-weight: 300;
 }
 #people {
+  color: #ffffff;
   background-image: url(../images/flag3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 3% 0;
 }
 #people i {
   color: white;
@@ -220,10 +223,7 @@ header .header-text .button {
   font-size: .8em;
   padding: 2%;
   border-radius: 50%;
-}
-#people img {
-  -webkit-filter: opacity(0.6);
-  filter: opacity(0.6);
+  text-align: center;
 }
 #people h3 {
   font-family: 'Raleway', sans-serif;
@@ -305,6 +305,7 @@ i {
   font-size: .8em;
   padding: 2%;
   border-radius: 50%;
+  text-align: center;
 }
 i {
   color: white;
@@ -312,6 +313,7 @@ i {
   font-size: .8em;
   padding: 2%;
   border-radius: 50%;
+  text-align: center;
 }
 #gift-registry {
   font-family: 'Vesper Libre', serif;
