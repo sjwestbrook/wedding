@@ -18,6 +18,12 @@
   font-size: 1em;
 }
 
+.section-icon {
+  color: white;
+  background-color: @mdgrey;
+  padding: 2%;
+}
+  
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 0.3em;
@@ -198,6 +204,15 @@ header {
   p {
     font-family: @serif;
   }
+  ul {
+    li {
+      a {
+  	 i {
+  	  color: @mdgrey;
+  	 }
+      }
+    }
+  }
 }
 
 
@@ -251,6 +266,9 @@ header {
 // PEOPLE
 
 #people {
+  i {
+    .section-icon;	
+  }
   background-image: url(../images/flag3.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -272,7 +290,7 @@ header {
     margin: 5%;
     //float: clear;
     img {
-    	width: 40%;
+    	width: 20%;
     	// float: left;
     }
     .quote {
@@ -347,6 +365,35 @@ header {
 }
 
 // END PEOPLE
+
+
+
+// BLOG
+i {
+  .section-icon;	
+}
+
+
+// END BLOG
+
+
+
+
+// RSVP
+
+// END RSVP
+
+
+
+
+// GALLERY
+i {
+  .section-icon;	
+}
+
+// END GALLERY
+
+
 
 
 
