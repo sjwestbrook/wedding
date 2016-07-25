@@ -203,10 +203,10 @@ header .header-text .button {
 }
 #our-story .storyline {
   display: flex;
+  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  align-content: center;
   font-family: 'Raleway', sans-serif;
   font-family: 'Vesper Libre', serif;
   line-height: 1.2em;
