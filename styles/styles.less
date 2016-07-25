@@ -392,9 +392,16 @@ header {
 
 // BLOG
 
-#blog-entries {
+#blog-entries {  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-between;
   .entry {
     text-align: left;
+    width: 30%;
+    margin: auto;
     .icon-p {
       margin: 0 auto;
       i {
