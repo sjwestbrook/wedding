@@ -9,7 +9,7 @@
   font-size: .8em;
   padding: 2%;
   border-radius: 50%;
-  text-align: center;
+  margin: 0 auto;
 }
 h1,
 h2,
@@ -223,7 +223,7 @@ header .header-text .button {
   font-size: .8em;
   padding: 2%;
   border-radius: 50%;
-  text-align: center;
+  margin: 0 auto;
 }
 #people h3 {
   font-family: 'Raleway', sans-serif;
@@ -238,6 +238,8 @@ header .header-text .button {
 }
 #people .person img {
   width: 25%;
+  float: lft;
+  margin: 5% 5% 0 0;
 }
 #people .person .person-text .quote {
   font-family: 'Vesper Libre', serif;
@@ -308,7 +310,7 @@ i {
   font-size: .8em;
   padding: 2%;
   border-radius: 50%;
-  text-align: center;
+  margin: 0 auto;
 }
 i {
   color: white;
@@ -316,18 +318,12 @@ i {
   font-size: .8em;
   padding: 2%;
   border-radius: 50%;
-  text-align: center;
+  margin: 0 auto;
 }
 #gift-registry {
   font-family: 'Vesper Libre', serif;
   line-height: 1.2em;
   font-size: 1em;
-}
-#gift-registry ul {
-  /*  COLUMN SETUP  */
-  /*  GROUPING  */
-  /*  GRID OF TWO  */
-  /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 }
 #gift-registry ul li a {
   padding: 0;
@@ -336,364 +332,6 @@ i {
   width: 20%;
   height: auto;
   padding: 0 5%;
-}
-#gift-registry ul .paragraphs {
-  font-family: 'Vesper Libre', serif;
-  line-height: 1.2em;
-  font-size: 1em;
-}
-#gift-registry ul .section-icon {
-  color: white;
-  background-color: #BDBDBD;
-  font-size: .8em;
-  padding: 2%;
-  border-radius: 50%;
-  text-align: center;
-}
-#gift-registry ul h1,
-#gift-registry ul h2,
-#gift-registry ul h3,
-#gift-registry ul h4,
-#gift-registry ul h5,
-#gift-registry ul h6 {
-  text-transform: uppercase;
-  letter-spacing: 0.3em;
-  text-align: center;
-}
-#gift-registry ul * {
-  outline: 1px dotted red;
-}
-#gift-registry ul html,
-#gift-registry ul body {
-  padding: 0;
-  margin: 0;
-  background-color: #ffffff;
-}
-#gift-registry ul .container {
-  width: 85%;
-  margin: 0 auto;
-  background-color: #ffffff;
-  border-bottom-left-radius: 2em;
-}
-#gift-registry ul ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
-}
-#gift-registry ul ul li {
-  display: inline;
-}
-#gift-registry ul ul li a {
-  text-decoration: none;
-  padding: 0 3%;
-}
-#gift-registry ul .teal-button {
-  background-color: #04B486;
-  border: none;
-  color: #ffffff;
-  padding: 2% 5%;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 0.6em;
-  font-family: 'Raleway', sans-serif;
-  margin: 5% auto;
-  cursor: pointer;
-  text-transform: uppercase;
-}
-#gift-registry ul .bottom-clip {
-  webkit-clip-path: polygon(0% 0%, 100% 0, 100% 87%, 50% 100%, 1% 87%);
-  clip-path: polygon(0% 0%, 100% 0, 100% 87%, 50% 100%, 1% 87%);
-}
-#gift-registry ul .circle-image {
-  max-width: 80%;
-}
-#gift-registry ul header {
-  position: relative;
-}
-#gift-registry ul header img {
-  width: 100%;
-  height: auto;
-}
-#gift-registry ul header nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #1C1C1C;
-  opacity: 0.8;
-  height: 10%;
-  width: 100%;
-}
-#gift-registry ul header nav ul {
-  font-family: 'Raleway', sans-serif;
-  font-size: 0.8em;
-  height: 5%;
-  width: 100%;
-  list-style-type: none;
-}
-#gift-registry ul header nav ul li {
-  display: inline-block;
-  padding: 0 2.5%;
-}
-#gift-registry ul header nav ul li a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  opacity: 1;
-}
-#gift-registry ul header .header-text {
-  position: absolute;
-  top: 25%;
-  left: 33%;
-  color: #ffffff;
-  text-align: center;
-}
-#gift-registry ul header .header-text h2 {
-  font-family: 'Great Vibes', cursive;
-  font-size: 1.5em;
-  font-weight: 300;
-  margin: 0 auto -3%;
-  text-transform: none;
-}
-#gift-registry ul header .header-text h1 {
-  font-family: 'Vesper Libre', serif;
-  font-size: 2.5em;
-  font-weight: 400;
-  margin: 0 auto;
-  text-transform: uppercase;
-}
-#gift-registry ul header .header-text h1 i {
-  font-size: .8em;
-}
-#gift-registry ul header .header-text h3 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.15em;
-  margin: -5% auto 5%;
-  text-transform: uppercase;
-}
-#gift-registry ul header .header-text p {
-  font-family: 'Vesper Libre', serif;
-  font-size: 0.6em;
-  font-weight: 200;
-  margin: -5% auto 8%;
-  text-transform: uppercase;
-}
-#gift-registry ul header .header-text .button {
-  background-color: #04B486;
-  border: none;
-  color: #ffffff;
-  padding: 2% 5%;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 0.6em;
-  font-family: 'Raleway', sans-serif;
-  margin: 5% auto;
-  cursor: pointer;
-  text-transform: uppercase;
-}
-#gift-registry ul #parents {
-  text-align: center;
-}
-#gift-registry ul #parents h4 {
-  font-size: 1em;
-  font-family: 'Raleway', sans-serif;
-}
-#gift-registry ul #parents h3 {
-  font-family: 'Vesper Libre', serif;
-  font-size: 1em;
-}
-#gift-registry ul #parents .invitation {
-  font-family: 'Raleway', sans-serif;
-  font-size: .8em;
-}
-#gift-registry ul #parents h4 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1em;
-}
-#gift-registry ul #parents p {
-  font-family: 'Vesper Libre', serif;
-}
-#gift-registry ul #parents ul li a i {
-  color: #BDBDBD;
-}
-#gift-registry ul #dates {
-  font-family: 'Vesper Libre', serif;
-}
-#gift-registry ul #dates h4 {
-  font-size: 1em;
-}
-#gift-registry ul #dates ul {
-  font-size: 1em;
-}
-#gift-registry ul #our-story h3 {
-  font-family: 'Vesper Libre', serif;
-}
-#gift-registry ul #our-story p {
-  font-family: 'Vesper Libre', serif;
-}
-#gift-registry ul #our-story .storyline {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Vesper Libre', serif;
-  line-height: 1.2em;
-  font-size: 1em;
-}
-#gift-registry ul #our-story .storyline h4 {
-  font-weight: 300;
-}
-#gift-registry ul #people {
-  color: #ffffff;
-  background-image: url(../images/flag3.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 3% 0;
-}
-#gift-registry ul #people i {
-  color: white;
-  background-color: #BDBDBD;
-  font-size: .8em;
-  padding: 2%;
-  border-radius: 50%;
-  text-align: center;
-}
-#gift-registry ul #people h3 {
-  font-family: 'Raleway', sans-serif;
-}
-#gift-registry ul #people .person {
-  font-family: 'Raleway', sans-serif;
-  padding: 1em;
-  background-color: #1C1C1C;
-  opacity: 0.6;
-  width: 80%;
-  margin: 5%;
-}
-#gift-registry ul #people .person img {
-  width: 25%;
-  float: left;
-}
-#gift-registry ul #people .person .person-text {
-  float: right;
-}
-#gift-registry ul #people .person .person-text .quote {
-  font-family: 'Vesper Libre', serif;
-  font-size: .8em;
-  line-height: 1.5em;
-}
-#gift-registry ul #people .person .person-text .name {
-  font-family: 'Vesper Libre', serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 0;
-}
-#gift-registry ul #people .person .person-text .relationship {
-  font-family: 'Vesper Libre', serif;
-  font-size: .6em;
-  font-weight: bold;
-  margin-top: 0;
-}
-#gift-registry ul .section {
-  clear: both;
-  padding: 0px;
-  margin: 0px;
-}
-#gift-registry ul .col {
-  display: block;
-  float: left;
-  margin: 1% 0 1% 1.6%;
-}
-#gift-registry ul .col:first-child {
-  margin-left: 0;
-}
-#gift-registry ul .group:before,
-#gift-registry ul .group:after {
-  content: "";
-  display: table;
-}
-#gift-registry ul .group:after {
-  clear: both;
-}
-#gift-registry ul .group {
-  zoom: 1;
-  /* For IE 6/7 */
-}
-#gift-registry ul .span_2_of_2 {
-  width: 100%;
-}
-#gift-registry ul .span_1_of_2 {
-  width: 49.2%;
-}
-@media only screen and (max-width: 480px) {
-  #gift-registry ul .col {
-    margin: 1% 0 1% 0%;
-  }
-}
-@media only screen and (max-width: 480px) {
-  #gift-registry ul .span_2_of_2,
-  #gift-registry ul .span_1_of_2 {
-    width: 100%;
-  }
-}
-#gift-registry ul i {
-  color: white;
-  background-color: #BDBDBD;
-  font-size: .8em;
-  padding: 2%;
-  border-radius: 50%;
-  text-align: center;
-}
-#gift-registry ul i {
-  color: white;
-  background-color: #BDBDBD;
-  font-size: .8em;
-  padding: 2%;
-  border-radius: 50%;
-  text-align: center;
-}
-#gift-registry ul #gift-registry {
-  font-family: 'Vesper Libre', serif;
-  line-height: 1.2em;
-  font-size: 1em;
-}
-#gift-registry ul #gift-registry ul li a {
-  padding: 0;
-}
-#gift-registry ul #gift-registry ul li a img {
-  width: 20%;
-  height: auto;
-  padding: 0 5%;
-}
-#gift-registry ul #google-map {
-  margin: 0 auto;
-}
-#gift-registry ul footer {
-  background-color: #1C1C1C;
-  color: #ffffff;
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  padding: 5% 0;
-}
-#gift-registry ul footer h3 {
-  font-size: 1em;
-}
-#gift-registry ul footer h3 i {
-  color: #04B486;
-}
-#gift-registry ul footer ul li a i {
-  color: #1C1C1C;
-  padding: 2%;
-  background-color: #ffffff;
-  border-radius: 50%;
-}
-#gift-registry ul footer p {
-  font-size: .6em;
 }
 #google-map {
   margin: 0 auto;
