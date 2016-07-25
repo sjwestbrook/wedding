@@ -13,8 +13,9 @@
 .more {
   text-decoration: none;
   color: #ffffff;
-  background-color: #D8D8D8;
-  font-size: .8em;
+  background-color: #BDBDBD;
+  font-size: .7em;
+  letter-spacing: .4em;
   padding: 1% 2%;
   margin-top: 4%;
   border-radius: 3%;
@@ -335,7 +336,7 @@ header .header-text .button {
 #blog .blog-entries .entry {
   text-align: left;
   width: 30%;
-  margin: auto;
+  margin: 0 auto;
 }
 #blog .blog-entries .entry img {
   max-width: 100%;
@@ -360,8 +361,9 @@ header .header-text .button {
 #blog .blog-entries .entry .entry a {
   text-decoration: none;
   color: #ffffff;
-  background-color: #D8D8D8;
-  font-size: .8em;
+  background-color: #BDBDBD;
+  font-size: .7em;
+  letter-spacing: .4em;
   padding: 1% 2%;
   margin-top: 4%;
   border-radius: 3%;
@@ -369,6 +371,16 @@ header .header-text .button {
 }
 #rsvp {
   font-family: 'Raleway', sans-serif;
+  background-image: url(images/flag1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#rsvp h2 {
+  color: white;
+}
+#rsvp form {
+  margin: 5% auto;
 }
 #rsvp form label {
   text-transform: uppercase;
