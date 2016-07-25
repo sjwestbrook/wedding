@@ -203,6 +203,10 @@ header .header-text .button {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#people img {
+  -webkit-filter: opacity(0.6);
+  filter: opacity(0.6);
+}
 #people h3 {
   font-family: 'Raleway', sans-serif;
 }
@@ -212,23 +216,28 @@ header .header-text .button {
   opacity: 0.6;
   width: 80%;
   margin: 5%;
+  float: clear;
 }
 #people .person img {
-  width: 60%;
+  width: 40%;
+  float: left;
 }
 #people .person .quote {
   font-family: 'Vesper Libre', serif;
+  float: right;
 }
 #people .person .name {
   font-family: 'Vesper Libre', serif;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: .5em;
+  float: right;
 }
 #people .person .relationship {
   font-family: 'Vesper Libre', serif;
   font-size: .8em;
   font-weight: bold;
+  float: right;
 }
 .section {
   clear: both;
