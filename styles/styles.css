@@ -6,7 +6,9 @@
 .section-icon {
   color: white;
   background-color: #BDBDBD;
+  font-size: .8em;
   padding: 2%;
+  border-radius: 50%;
 }
 h1,
 h2,
@@ -215,7 +217,9 @@ header .header-text .button {
 #people i {
   color: white;
   background-color: #BDBDBD;
+  font-size: .8em;
   padding: 2%;
+  border-radius: 50%;
 }
 #people img {
   -webkit-filter: opacity(0.6);
@@ -298,12 +302,16 @@ header .header-text .button {
 i {
   color: white;
   background-color: #BDBDBD;
+  font-size: .8em;
   padding: 2%;
+  border-radius: 50%;
 }
 i {
   color: white;
   background-color: #BDBDBD;
+  font-size: .8em;
   padding: 2%;
+  border-radius: 50%;
 }
 #gift-registry {
   font-family: 'Vesper Libre', serif;
