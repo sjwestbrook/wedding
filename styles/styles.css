@@ -202,10 +202,10 @@ header .header-text .button {
   font-size: 1em;
 }
 #our-story h3 {
-  font-family: 'Vesper Libre', serif;
+  font-family: 'Raleway', sans-serif;
 }
 #our-story p {
-  font-family: 'Vesper Libre', serif;
+  font-family: 'Raleway', sans-serif;
 }
 #our-story .storyline {
   display: flex;
@@ -318,6 +318,7 @@ header .header-text .button {
 }
 #blog .icon-p {
   margin: 0 auto;
+  text-align: center;
 }
 #blog .icon-p i {
   color: white;
@@ -355,7 +356,7 @@ header .header-text .button {
 }
 #blog .blog-entries .entry .entry p {
   line-height: 1.25em;
-  font-family: 'Vesper Libre', serif;
+  font-family: 'Raleway', sans-serif;
   font-size: .8em;
 }
 #blog .blog-entries .entry .entry a {
