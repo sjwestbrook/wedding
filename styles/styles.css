@@ -3,9 +3,6 @@
   line-height: 1.2em;
   font-size: 1em;
 }
-.icon-p {
-  margin: 0 auto;
-}
 .section-icon {
   color: white;
   background-color: #BDBDBD;
@@ -219,7 +216,10 @@ header .header-text .button {
   background-size: cover;
   margin: 3% 0;
 }
-#people i {
+#people .icon-p {
+  margin: 0 auto;
+}
+#people .icon-p i {
   color: white;
   background-color: #BDBDBD;
   font-size: .8em;
