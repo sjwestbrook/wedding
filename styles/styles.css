@@ -312,8 +312,17 @@ header .header-text .button {
     width: 100%;
   }
 }
+#blog-entries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-between;
+}
 #blog-entries .entry {
   text-align: left;
+  width: 30%;
+  margin: auto;
 }
 #blog-entries .entry .icon-p {
   margin: 0 auto;
