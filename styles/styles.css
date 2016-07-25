@@ -3,13 +3,15 @@
   line-height: 1.2em;
   font-size: 1em;
 }
+.icon-p {
+  margin: 0 auto;
+}
 .section-icon {
   color: white;
   background-color: #BDBDBD;
   font-size: .8em;
   padding: 2%;
   border-radius: 50%;
-  margin: 0 auto;
 }
 h1,
 h2,
@@ -223,7 +225,6 @@ header .header-text .button {
   font-size: .8em;
   padding: 2%;
   border-radius: 50%;
-  margin: 0 auto;
 }
 #people h3 {
   font-family: 'Raleway', sans-serif;
@@ -310,7 +311,6 @@ i {
   font-size: .8em;
   padding: 2%;
   border-radius: 50%;
-  margin: 0 auto;
 }
 i {
   color: white;
@@ -318,7 +318,6 @@ i {
   font-size: .8em;
   padding: 2%;
   border-radius: 50%;
-  margin: 0 auto;
 }
 #gift-registry {
   font-family: 'Vesper Libre', serif;
