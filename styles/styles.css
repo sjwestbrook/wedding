@@ -329,12 +329,14 @@ header .header-text .button {
 }
 #blog .blog-entries .entry {
   text-align: left;
-  width: 30%;
+  width: 25%;
   margin: auto;
 }
 #blog .blog-entries .entry img {
-  max-width: 300px;
+  max-width: 250px;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 #blog .blog-entries .entry h3 {
   font-family: 'Raleway', sans-serif;
