@@ -316,18 +316,15 @@ header {
     }
     .person-text {
       .quote {
-        font-family: @serif;
         font-size: .8em;
         line-height: 1.5em;
       }
       .name {
-        font-family: @serif;
         font-weight: bold;
         text-transform: uppercase;
         margin-bottom: 0;
       }
       .relationship {
-        font-family: @serif;
         font-size: .6em;
         font-weight: bold;
         margin-top: 0;
@@ -393,7 +390,7 @@ header {
 
 // BLOG
 #blog {
-  font-family: @sans-serif;
+  
   .icon-p {
     margin: 0 auto;
     i {
@@ -414,14 +411,20 @@ header {
       	max-width: 300px;
       	height: auto;
       }
+      h3 {
+        font-family: @sans-serif;
+      }
       h4 {
         color: @ltgrey;
+        font-family: @sans-serif;
         font-size: .8em;
         margin: 0 auto;
       }
       .entry {
       	p {
       	  line-height: 1.25em;
+      	  font-family: @serif;
+      	  font-size: .8em;
       	}
         a {
           .more; 
