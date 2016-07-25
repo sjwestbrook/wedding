@@ -359,11 +359,42 @@ header .header-text .button {
   padding: 1% 2%;
   margin-top: 4%;
 }
-.icon-p {
+#rsvp {
+  font-family: 'Raleway', sans-serif;
+}
+#rsvp form label {
+  text-transform: uppercase;
+  color: #BDBDBD;
+  font-size: .8em;
+}
+#rsvp form input {
+  color: #1C1C1C;
+  background-color: #BDBDBD;
+  border-radius: 5px;
+}
+#rsvp form button {
+  background-color: #04B486;
+  border: none;
+  color: #ffffff;
+  padding: 2% 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.6em;
+  font-family: 'Raleway', sans-serif;
+  margin: 5% auto;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 90%;
+}
+#gallery {
+  font-family: 'Raleway', sans-serif;
+}
+#gallery .icon-p {
   margin: 0 auto;
   text-align: center;
 }
-.icon-p i {
+#gallery .icon-p i {
   color: white;
   background-color: #D8D8D8;
   font-size: .6em;
@@ -371,6 +402,8 @@ header .header-text .button {
   border-radius: 50%;
 }
 #gift-registry {
+  margin-bottom: 6%;
+  font-family: 'Raleway', sans-serif;
   font-family: 'Vesper Libre', serif;
   line-height: 1.2em;
   font-size: 1em;
