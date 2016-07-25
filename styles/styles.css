@@ -313,6 +313,9 @@ header .header-text .button {
     width: 100%;
   }
 }
+#blog {
+  font-family: 'Raleway', sans-serif;
+}
 #blog .icon-p {
   margin: 0 auto;
 }
@@ -335,10 +338,16 @@ header .header-text .button {
   width: 30%;
   margin: auto;
 }
+#blog .blog-entries .entry img {
+  width: 100%;
+}
 #blog .blog-entries .entry h4 {
   color: #D8D8D8;
   font-size: .8em;
   margin: 0 auto;
+}
+#blog .blog-entries .entry .entry p {
+  line-height: 1.25em;
 }
 #blog .blog-entries .entry .entry a {
   text-decoration: none;
