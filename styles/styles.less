@@ -393,6 +393,7 @@ header {
 
 // BLOG
 #blog {
+  font-family: @sans-serif;
   .icon-p {
     margin: 0 auto;
     i {
@@ -409,12 +410,18 @@ header {
       text-align: left;
       width: 30%;
       margin: auto;
+      img {
+      	width: 100%;
+      }
       h4 {
         color: @ltgrey;
         font-size: .8em;
         margin: 0 auto;
       }
       .entry {
+      	p {
+      	  line-height: 1.25em;
+      	}
         a {
           .more; 
         }
