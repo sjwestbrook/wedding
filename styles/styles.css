@@ -14,8 +14,11 @@
   text-decoration: none;
   color: #ffffff;
   background-color: #D8D8D8;
+  font-size: .8em;
   padding: 1% 2%;
   margin-top: 4%;
+  border-radius: 3%;
+  text-transform: uppercase;
 }
 h1,
 h2,
@@ -58,6 +61,7 @@ ul li a {
 .teal-button {
   background-color: #04B486;
   border: none;
+  border-radius: 3%;
   color: #ffffff;
   padding: 2% 5%;
   text-align: center;
@@ -150,6 +154,7 @@ header .header-text p {
 header .header-text .button {
   background-color: #04B486;
   border: none;
+  border-radius: 3%;
   color: #ffffff;
   padding: 2% 5%;
   text-align: center;
@@ -329,11 +334,11 @@ header .header-text .button {
 }
 #blog .blog-entries .entry {
   text-align: left;
-  width: 25%;
+  width: 30%;
   margin: auto;
 }
 #blog .blog-entries .entry img {
-  max-width: 250px;
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -356,8 +361,11 @@ header .header-text .button {
   text-decoration: none;
   color: #ffffff;
   background-color: #D8D8D8;
+  font-size: .8em;
   padding: 1% 2%;
   margin-top: 4%;
+  border-radius: 3%;
+  text-transform: uppercase;
 }
 #rsvp {
   font-family: 'Raleway', sans-serif;
@@ -375,6 +383,7 @@ header .header-text .button {
 #rsvp form button {
   background-color: #04B486;
   border: none;
+  border-radius: 3%;
   color: #ffffff;
   padding: 2% 5%;
   text-align: center;
