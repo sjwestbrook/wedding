@@ -218,6 +218,7 @@ header .header-text .button {
 }
 #people .icon-p {
   margin: 0 auto;
+  text-align: center;
 }
 #people .icon-p i {
   color: white;
@@ -305,14 +306,22 @@ header .header-text .button {
     width: 100%;
   }
 }
-i {
+.icon-p {
+  margin: 0 auto;
+  text-align: center;
+}
+.icon-p i {
   color: white;
   background-color: #BDBDBD;
   font-size: .8em;
   padding: 2%;
   border-radius: 50%;
 }
-i {
+.icon-p {
+  margin: 0 auto;
+  text-align: center;
+}
+.icon-p i {
   color: white;
   background-color: #BDBDBD;
   font-size: .8em;
@@ -323,6 +332,17 @@ i {
   font-family: 'Vesper Libre', serif;
   line-height: 1.2em;
   font-size: 1em;
+}
+#gift-registry .icon-p {
+  margin: 0 auto;
+  text-align: center;
+}
+#gift-registry .icon-p i {
+  color: white;
+  background-color: #BDBDBD;
+  font-size: .8em;
+  padding: 2%;
+  border-radius: 50%;
 }
 #gift-registry ul li a {
   padding: 0;
