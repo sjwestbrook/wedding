@@ -60,7 +60,6 @@ ul li a {
 }
 .circle-image {
   max-width: 80%;
-  max-height: auto;
 }
 header {
   position: relative;
@@ -98,9 +97,8 @@ header nav ul li a {
 }
 header .header-text {
   position: absolute;
-  top: 28%;
-  left: 37%;
-  margin-top: 25%;
+  top: 25%;
+  left: 33%;
   color: #ffffff;
   text-align: center;
 }
@@ -211,9 +209,12 @@ header .header-text .button {
 #people .person {
   padding: 2em;
   background-color: #1C1C1C;
-  opacity: 0.8;
+  opacity: 0.6;
   width: 80%;
   margin: 5%;
+}
+#people .person img {
+  width: 60%;
 }
 #people .person .quote {
   font-family: 'Vesper Libre', serif;
