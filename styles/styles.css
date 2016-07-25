@@ -14,7 +14,8 @@
   text-decoration: none;
   color: #ffffff;
   background-color: #D8D8D8;
-  padding: 2% 3%;
+  padding: 1% 2%;
+  margin-top: 4%;
 }
 h1,
 h2,
@@ -319,20 +320,20 @@ header .header-text .button {
   align-items: flex-start;
   align-content: space-between;
 }
-#blog-entries .entry {
-  text-align: left;
-  width: 30%;
-  margin: auto;
-}
-#blog-entries .entry .icon-p {
+#blog-entries .icon-p {
   margin: 0 auto;
 }
-#blog-entries .entry .icon-p i {
+#blog-entries .icon-p i {
   color: white;
   background-color: #D8D8D8;
   font-size: .6em;
   padding: 2%;
   border-radius: 50%;
+}
+#blog-entries .entry {
+  text-align: left;
+  width: 30%;
+  margin: auto;
 }
 #blog-entries .entry h4 {
   color: #D8D8D8;
@@ -343,7 +344,8 @@ header .header-text .button {
   text-decoration: none;
   color: #ffffff;
   background-color: #D8D8D8;
-  padding: 2% 3%;
+  padding: 1% 2%;
+  margin-top: 4%;
 }
 .icon-p {
   margin: 0 auto;
