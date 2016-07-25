@@ -3,6 +3,11 @@
   line-height: 1.2em;
   font-size: 1em;
 }
+.section-icon {
+  color: white;
+  background-color: #BDBDBD;
+  padding: 2%;
+}
 h1,
 h2,
 h3,
@@ -11,6 +16,7 @@ h5,
 h6 {
   text-transform: uppercase;
   letter-spacing: 0.3em;
+  text-align: center;
 }
 * {
   outline: 1px dotted red;
@@ -168,6 +174,9 @@ header .header-text .button {
 #parents p {
   font-family: 'Vesper Libre', serif;
 }
+#parents ul li a i {
+  color: #BDBDBD;
+}
 #dates {
   font-family: 'Vesper Libre', serif;
 }
@@ -203,6 +212,11 @@ header .header-text .button {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#people i {
+  color: white;
+  background-color: #BDBDBD;
+  padding: 2%;
+}
 #people img {
   -webkit-filter: opacity(0.6);
   filter: opacity(0.6);
@@ -211,14 +225,14 @@ header .header-text .button {
   font-family: 'Raleway', sans-serif;
 }
 #people .person {
-  padding: 2em;
+  padding: 1em;
   background-color: #1C1C1C;
   opacity: 0.6;
   width: 80%;
   margin: 5%;
 }
 #people .person img {
-  width: 40%;
+  width: 20%;
 }
 #people .person .quote {
   font-family: 'Vesper Libre', serif;
@@ -280,6 +294,16 @@ header .header-text .button {
   .span_1_of_2 {
     width: 100%;
   }
+}
+i {
+  color: white;
+  background-color: #BDBDBD;
+  padding: 2%;
+}
+i {
+  color: white;
+  background-color: #BDBDBD;
+  padding: 2%;
 }
 #gift-registry {
   font-family: 'Vesper Libre', serif;
