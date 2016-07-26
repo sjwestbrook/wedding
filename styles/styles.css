@@ -168,22 +168,22 @@ header .header-text .button {
 }
 #parents h4 {
   font-size: 1em;
-  font-family: 'Raleway', sans-serif;
+  margin: 1% 0;
 }
 #parents h3 {
   font-family: 'Vesper Libre', serif;
   font-size: 1.5em;
+  margin: 1% 0;
 }
 #parents .invitation {
-  font-family: 'Raleway', sans-serif;
   font-size: .8em;
 }
-#parents h4 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1em;
+#parents p {
+  font-size: 1.5em;
+  margin: 1% 0 3% 0;
 }
 #parents ul li a i {
-  color: #BDBDBD;
+  color: #848484;
 }
 #dates {
   margin-bottom: 10%;
@@ -388,7 +388,7 @@ header .header-text .button {
   text-transform: uppercase;
 }
 #rsvp {
-  background-image: url(../images/flag1.jpg);
+  background-image: url(images/flag1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
