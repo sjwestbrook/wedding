@@ -16,9 +16,6 @@
   border-radius: 5%;
   text-transform: uppercase;
 }
-* {
-  outline: 1px dotted red;
-}
 html,
 body {
   padding: 0;
@@ -64,7 +61,7 @@ ul li a {
 .teal-button {
   background-color: #04B486;
   border: none;
-  border-radius: 5%;
+  border-radius: 5px;
   color: #ffffff;
   padding: 2% 5%;
   text-align: center;
@@ -153,7 +150,7 @@ header .header-text p {
 header .header-text .button {
   background-color: #04B486;
   border: none;
-  border-radius: 5%;
+  border-radius: 5px;
   color: #ffffff;
   padding: 2% 5%;
   text-align: center;
@@ -428,7 +425,7 @@ header .header-text .button {
 #rsvp form div button {
   background-color: #04B486;
   border: none;
-  border-radius: 5%;
+  border-radius: 5px;
   color: #ffffff;
   padding: 2% 5%;
   text-align: center;
@@ -440,7 +437,7 @@ header .header-text .button {
   margin: 5% auto;
   cursor: pointer;
   text-transform: uppercase;
-  margin: 5% auto 2% auto;
+  margin-top: 5%;
   width: 100%;
 }
 #gallery {
