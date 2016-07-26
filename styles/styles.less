@@ -204,14 +204,14 @@ header {
 // PARENTS
 #parents{
   text-align: center;
-  margin-bottom: 10%;
+//  margin-bottom: 10%;
   h4 {
     font-size: 1em;
     font-family: @sans-serif;
   }
   h3 {
     font-family: @serif;
-    font-size: 1em;
+    font-size: 1.5em;
   }
   .invitation {
     font-family: @sans-serif;
@@ -243,7 +243,13 @@ header {
     font-size: 1em;
   }
   ul {
-    font-size: 1em;
+    .important-dates {
+      font-size: 1em;
+      li {
+        padding: 2% 0;
+        text-align: center;
+      }
+    }    
   }
 }
 
@@ -257,22 +263,24 @@ header {
   background-size: cover;
 //  margin: 5% 5% 10% 5%;
   padding: 15% 0;
+  text-align: center;
   #countdown {
     display: flex;
-  flex-direction: row;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     .count {
-      width: 15%;
+      width: 12%;
       .number {
         color: @dkgrey;
         background-color: @white;
-        font-size: 4.5em;
+        font-size: 3.5em;
         padding: 5%;      
       }
       p {
         text-transform: uppercase;
+        font-weight: bold;
       } 
      }
   }
