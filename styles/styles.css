@@ -187,7 +187,6 @@ header .header-text .button {
   color: #BDBDBD;
 }
 #dates {
-  font-family: 'Vesper Libre', serif;
   margin-bottom: 10%;
 }
 #dates h4 {
@@ -204,12 +203,26 @@ header .header-text .button {
   background-size: cover;
   margin: 5% 5% 10% 5%;
   padding: 15% 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#countdown .count {
+  color: #848484;
+  background-color: #ffffff;
+  font-size: 4.5em;
+  padding: 5%;
+  width: 15%;
+}
+#countdown p {
+  text-transform: uppercase;
 }
 #our-story {
   margin-bottom: 8%;
 }
-#our-story h3 {
-  font-family: 'Raleway', sans-serif;
+#our-story h4 {
+  font-weight: 300;
 }
 #our-story .storyline {
   display: flex;
@@ -217,10 +230,6 @@ header .header-text .button {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Raleway', sans-serif;
-}
-#our-story .storyline h4 {
-  font-weight: 300;
 }
 #people {
   color: #ffffff;
