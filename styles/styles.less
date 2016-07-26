@@ -12,15 +12,6 @@
 @vltgrey: #fafafa;
 @teal: #04B486;
 
-.paragraphs {
-  font-family: @serif;
-  line-height: 1.2em;
-  font-size: 1em;
-}
-
-// .icon-p {
-//   margin: 0 auto;	
-// }
 
 .section-icon {
   color: white;
@@ -42,11 +33,7 @@
   text-transform: uppercase;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  text-transform: uppercase;
-  letter-spacing: 0.3em;
-  text-align: center;
-}
+
 
 // ELEMENTS
 
@@ -58,6 +45,7 @@ html, body {
   padding: 0;
   margin: 0;
   background-color: @white;
+  font-family: @sans-serif;
 }
 
 .container {
@@ -71,6 +59,20 @@ html, body {
 //  -webkit-box-shadow: -1px 0px 4px -1px rgba(66,66,66,1);
 //  -moz-box-shadow: -1px 0px 4px -1px rgba(66,66,66,1);
 //  box-shadow: -1px 0px 4px -1px rgba(66,66,66,1);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  text-align: center;
+  font-family: @sans-serif;
+}
+
+p {
+  font-family: @sans-serif;
+  line-height: 1.5em;
+  font-size: 1em;
 }
 
 ul {
@@ -88,8 +90,6 @@ ul {
 }
 
 
-
-// CLASSES
 .teal-button {
   background-color: @teal;
   border: none;
@@ -106,10 +106,10 @@ ul {
   text-transform: uppercase;
 }
 
-.bottom-clip {
-  webkit-clip-path: polygon(0% 0%, 100% 0, 100% 87%, 50% 100%, 1% 87%);
-  clip-path: polygon(0% 0%, 100% 0, 100% 87%, 50% 100%, 1% 87%);
-}
+//.bottom-clip {
+//  webkit-clip-path: polygon(0% 0%, 100% 0, 100% 87%, 50% 100%, 1% 87%);
+//  clip-path: polygon(0% 0%, 100% 0, 100% 87%, 50% 100%, 1% 87%);
+//}
 
 .circle-image {
   max-width: 80%;
@@ -187,8 +187,8 @@ header {
       text-transform: uppercase;
     }
     p {
-      font-family: @serif;
-      font-size: 0.6em;
+//      font-family: @serif;
+//      font-size: 0.6em;
       font-weight: 200;
       margin: -5% auto 8%;
       text-transform: uppercase;
@@ -204,6 +204,7 @@ header {
 // PARENTS
 #parents{
   text-align: center;
+  margin-bottom: 10%;
   h4 {
     font-size: 1em;
     font-family: @sans-serif;
@@ -220,9 +221,9 @@ header {
     font-family: @sans-serif;
     font-size: 1em;
   }
-  p {
-    font-family: @serif;
-  }
+//  p {
+//    font-family: @serif;
+//  }
   ul {
     li {
       a {
@@ -237,6 +238,7 @@ header {
 
 #dates {
   font-family: @serif;
+  margin-bottom: 10%;
   h4{
     font-size: 1em;
   }
@@ -248,12 +250,13 @@ header {
 // OUR STORY 
 
 #our-story {
+  margin-bottom: 10%;
   h3 {
     font-family: @sans-serif;
   }
-  p {
-    font-family: @sans-serif;
-  }
+//  p {
+//    font-family: @sans-serif;
+//  }
   .storyline {
     display: flex;
     flex-direction: row;
@@ -265,7 +268,6 @@ header {
     h4 {
       font-weight: 300;
     }
-    .paragraphs;
 //    .col1 {
 //    	..
 //    }
@@ -302,7 +304,7 @@ header {
   //  -webkit-filter: opacity(.6);
   //  filter: opacity(.6);
   //}
-  margin: 3% 0;
+  margin: 3% 0 10% 0;
   h3 {
     font-family: @sans-serif;
   }
@@ -397,7 +399,7 @@ header {
 // BLOG
 #blog {
    .icon-p {
-    margin: 0 auto;
+    margin: 0 auto 10% auto;
     text-align: center;
     i {
       .section-icon;	
@@ -429,11 +431,11 @@ header {
         margin: 0 auto;
       }
       .entry {
-      	p {
-      	  line-height: 1.25em;
-      	  font-family: @sans-serif;
-      	  font-size: .8em;
-      	}
+//      	p {
+//      	  line-height: 1.25em;
+//      	  font-family: @sans-serif;
+//      	  font-size: .8em;
+//      	}
         a {
           .more; 
         }
@@ -457,7 +459,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: @sans-serif;
-  margin: 5%;
+  margin: 5% 5% 10% 5%;
   padding: 15% 0;
   h2 {
     color: white;
@@ -487,7 +489,8 @@ header {
 
 // GALLERY
 #gallery {
-  font-family: @sans-serif;
+//  font-family: @sans-serif;
+  margin-bottom: 10%;
   .icon-p {
     margin: 0 auto;
     text-align: center;
@@ -505,7 +508,7 @@ header {
 
 // GIFT REGISTRY
 #gift-registry {
-  margin-bottom: 6%;
+  margin-bottom: 10%;
   font-family: @sans-serif;
   .icon-p {
     margin: 0 auto;
@@ -514,7 +517,6 @@ header {
       .section-icon;	
     }
   }
-  .paragraphs;
   ul {
     li {
       a {
