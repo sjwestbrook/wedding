@@ -196,8 +196,17 @@ header .header-text .button {
 #dates ul {
   font-size: 1em;
 }
+#countdown {
+  color: #ffffff;
+  background-image: url(../images/flag2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5% 5% 10% 5%;
+  padding: 15% 0;
+}
 #our-story {
-  margin-bottom: 10%;
+  margin-bottom: 8%;
 }
 #our-story h3 {
   font-family: 'Raleway', sans-serif;
@@ -308,8 +317,11 @@ header .header-text .button {
     width: 100%;
   }
 }
+#blog {
+  margin-bottom: 10%;
+}
 #blog .icon-p {
-  margin: 0 auto 10% auto;
+  margin: 0 auto;
   text-align: center;
 }
 #blog .icon-p i {
