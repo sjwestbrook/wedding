@@ -95,6 +95,7 @@ header nav {
   opacity: 0.8;
   height: 10%;
   width: 100%;
+  padding: 5%;
 }
 header nav ul {
   font-family: 'Raleway', sans-serif;
@@ -182,13 +183,13 @@ header .header-text .button {
   font-size: .8em;
 }
 #parents p {
-  margin: 5% 0 10% 0;
+  margin-bottom: 5%;
 }
 #parents ul li a i {
   color: #848484;
 }
 #dates {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 #dates h4 {
   font-size: 1em;
@@ -233,7 +234,7 @@ header .header-text .button {
   font-weight: bold;
 }
 #our-story {
-  margin-bottom: 8%;
+  margin-bottom: 5%;
 }
 #our-story h4 {
   font-weight: 300;
@@ -251,7 +252,7 @@ header .header-text .button {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 3% 0 10% 0;
+  margin: 3% 0 5% 0;
 }
 #people .icon-p {
   margin: 0 auto;
@@ -341,7 +342,7 @@ header .header-text .button {
   }
 }
 #blog {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 #blog .icon-p {
   margin: 0 auto;
@@ -443,7 +444,7 @@ header .header-text .button {
   width: 100%;
 }
 #gallery {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 #gallery .icon-p {
   margin: 0 auto;
@@ -457,7 +458,7 @@ header .header-text .button {
   border-radius: 50%;
 }
 #gift-registry {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   font-family: 'Raleway', sans-serif;
 }
 #gift-registry .icon-p {
