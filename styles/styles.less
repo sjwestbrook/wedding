@@ -503,7 +503,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: @sans-serif;
-  margin: 5% 5% 10% 5%;
+  margin: 5% 0;
   padding: 15% 0;
   h2 {
     color: white;
@@ -513,19 +513,25 @@ header {
     margin: 5% auto;
     padding: 5%;
     width: 60%;
-    label {
-      text-transform: uppercase;
-      color: @mdgrey;
-      font-size: .8em;
-    }
-    input {
-      color: @dkgrey;
-      background-color: @ltgrey;
-      border-radius: 5px;
-    }
-    button {
-      .teal-button;
-      width: 90%;
+    div {
+      padding-bottom: 2%;
+      label {
+        text-transform: uppercase;
+        color: @mdgrey;
+        font-size: .8em;
+      }
+      input {
+        color: @dkgrey;
+        background-color: @ltgrey;
+        border-radius: 5px;
+        width: 100%;
+      }
+      button {
+        .teal-button;
+        padding: 0;
+        margin: 5% auto 2% auto;
+        width: 100%;
+      }
     }
   }
 }

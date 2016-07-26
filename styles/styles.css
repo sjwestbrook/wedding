@@ -393,7 +393,7 @@ header .header-text .button {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Raleway', sans-serif;
-  margin: 5% 5% 10% 5%;
+  margin: 5% 0;
   padding: 15% 0;
 }
 #rsvp h2 {
@@ -405,17 +405,21 @@ header .header-text .button {
   padding: 5%;
   width: 60%;
 }
-#rsvp form label {
+#rsvp form div {
+  padding-bottom: 2%;
+}
+#rsvp form div label {
   text-transform: uppercase;
   color: #BDBDBD;
   font-size: .8em;
 }
-#rsvp form input {
+#rsvp form div input {
   color: #848484;
   background-color: #D8D8D8;
   border-radius: 5px;
+  width: 100%;
 }
-#rsvp form button {
+#rsvp form div button {
   background-color: #04B486;
   border: none;
   border-radius: 3%;
@@ -429,7 +433,9 @@ header .header-text .button {
   margin: 5% auto;
   cursor: pointer;
   text-transform: uppercase;
-  width: 90%;
+  padding: 0;
+  margin: 5% auto 2% auto;
+  width: 100%;
 }
 #gallery {
   margin-bottom: 10%;
