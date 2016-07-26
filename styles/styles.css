@@ -175,9 +175,9 @@ header .header-text .button {
   font-size: 1.5em;
   margin: 1% 0;
 }
-#parents .invitation {
-  font-size: .8em;
-}
+/*#parents .invitation {*/
+/*  font-size: .8em;*/
+/*}*/
 #parents p {
   margin-bottom: 5%;
 }
