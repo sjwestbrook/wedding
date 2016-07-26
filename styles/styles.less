@@ -255,22 +255,24 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 5% 5% 10% 5%;
+//  margin: 5% 5% 10% 5%;
   padding: 15% 0;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   .count {
-    color: @dkgrey;
-    background-color: @white;
-    font-size: 4.5em;
-    padding: 5%;
     width: 15%;
-  }
-  p {
-    text-transform: uppercase;
-  }
+    .number {
+      color: @dkgrey;
+      background-color: @white;
+      font-size: 4.5em;
+      padding: 5%;      
+    }
+    p {
+      text-transform: uppercase;
+    } 
+   }
 }
 
 // END COUNTDOWN
