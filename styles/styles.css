@@ -197,6 +197,7 @@ header .header-text .button {
   font-size: 1em;
 }
 #dates ul .important-dates li {
+  display: block;
   padding: 2% 0;
   text-align: center;
 }
@@ -206,6 +207,7 @@ header .header-text .button {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 5%;
   padding: 15% 0;
   text-align: center;
 }
@@ -215,6 +217,7 @@ header .header-text .button {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  margin-top: 10%;
 }
 #countdown-container #countdown .count {
   width: 12%;
@@ -373,7 +376,7 @@ header .header-text .button {
   font-family: 'Raleway', sans-serif;
 }
 #blog .blog-entries .entry h4 {
-  color: #D8D8D8;
+  color: #BDBDBD;
   font-family: 'Raleway', sans-serif;
   font-size: .8em;
   margin: 0 auto;
