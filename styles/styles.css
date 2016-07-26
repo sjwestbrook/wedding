@@ -195,29 +195,31 @@ header .header-text .button {
 #dates ul {
   font-size: 1em;
 }
-#countdown {
+#countdown-container {
   color: #ffffff;
   background-image: url(../images/flag2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 15% 0;
+}
+#countdown-container #countdown {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
-#countdown .count {
+#countdown-container #countdown .count {
   width: 15%;
 }
-#countdown .count .number {
+#countdown-container #countdown .count .number {
   color: #848484;
   background-color: #ffffff;
   font-size: 4.5em;
   padding: 5%;
 }
-#countdown .count p {
+#countdown-container #countdown .count p {
   text-transform: uppercase;
 }
 #our-story {

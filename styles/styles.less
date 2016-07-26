@@ -249,7 +249,7 @@ header {
 
 
 // COUNTDOWN
-#countdown {
+#countdown-container {
   color: @white;
   background-image: url(../images/flag2.jpg);
   background-position: center;
@@ -257,23 +257,25 @@ header {
   background-size: cover;
 //  margin: 5% 5% 10% 5%;
   padding: 15% 0;
-  display: flex;
+  #countdown {
+    display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  .count {
-    width: 15%;
-    .number {
-      color: @dkgrey;
-      background-color: @white;
-      font-size: 4.5em;
-      padding: 5%;      
-    }
-    p {
-      text-transform: uppercase;
-    } 
-   }
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .count {
+      width: 15%;
+      .number {
+        color: @dkgrey;
+        background-color: @white;
+        font-size: 4.5em;
+        padding: 5%;      
+      }
+      p {
+        text-transform: uppercase;
+      } 
+     }
+  }
 }
 
 // END COUNTDOWN
