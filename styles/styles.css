@@ -1,7 +1,6 @@
 .section-icon {
   color: white;
   background-color: #D8D8D8;
-  font-size: .6em;
   padding: 2%;
   border-radius: 50%;
 }
@@ -191,10 +190,10 @@ header .header-text .button {
 #dates h4 {
   font-size: 1em;
 }
-#dates ul .important-dates {
+#dates .important-dates {
   font-size: 1em;
 }
-#dates ul .important-dates li {
+#dates .important-dates li {
   display: block;
   padding: 2% 0;
   text-align: center;
@@ -258,7 +257,6 @@ header .header-text .button {
 #people .icon-p i {
   color: white;
   background-color: #D8D8D8;
-  font-size: .6em;
   padding: 2%;
   border-radius: 50%;
 }
@@ -348,7 +346,6 @@ header .header-text .button {
 #blog .icon-p i {
   color: white;
   background-color: #D8D8D8;
-  font-size: .6em;
   padding: 2%;
   border-radius: 50%;
 }
@@ -397,7 +394,7 @@ header .header-text .button {
   background-size: cover;
   font-family: 'Raleway', sans-serif;
   margin: 5% 0;
-  padding: 15% 0;
+  padding: 8% 0;
 }
 #rsvp h2 {
   color: white;
@@ -421,6 +418,7 @@ header .header-text .button {
   background-color: #D8D8D8;
   border-radius: 5px;
   width: 100%;
+  height: 25%;
 }
 #rsvp form div button {
   background-color: #04B486;
@@ -449,7 +447,6 @@ header .header-text .button {
 #gallery .icon-p i {
   color: white;
   background-color: #D8D8D8;
-  font-size: .6em;
   padding: 2%;
   border-radius: 50%;
 }
@@ -464,7 +461,6 @@ header .header-text .button {
 #gift-registry .icon-p i {
   color: white;
   background-color: #D8D8D8;
-  font-size: .6em;
   padding: 2%;
   border-radius: 50%;
 }
@@ -488,6 +484,7 @@ footer {
 }
 footer h3 {
   font-size: 1em;
+  margin-bottom: 3%;
 }
 footer h3 i {
   color: #04B486;
@@ -500,4 +497,5 @@ footer ul li a i {
 }
 footer p {
   font-size: .6em;
+  margin-top: 3%;
 }
