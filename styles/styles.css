@@ -460,9 +460,8 @@ header .header-text .button {
   height: auto;
   padding: 0 5%;
 }
-#church {
+#church img {
   max-width: 100%;
-  height: auto;
 }
 footer {
   background-color: #1C1C1C;
