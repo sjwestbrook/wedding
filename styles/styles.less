@@ -10,6 +10,7 @@
 @ltgrey: #D8D8D8;
 @ltrgrey: #E6E6E6;
 @vltgrey: #fafafa;
+@vvltgrey: #ececec;
 @teal: #04B486;
 
 
@@ -44,13 +45,14 @@
 html, body {
   padding: 0;
   margin: 0;
-  background-color: lighten(@vltgrey, 20%);
+  background-color: @vvltgrey;
   font-family: @sans-serif;
 }
 
 .container {
   width: 75%;
   margin: 0 auto;
+  padding: 0 5%;
   //padding: 0 3%;
 //  border-radius: 25px 25px 0px 0px;
 //  -moz-border-radius: 25px 25px 0px 0px;
