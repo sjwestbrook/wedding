@@ -4,11 +4,6 @@
   padding: 2%;
   border-radius: 50%;
 }
-.circle-image-lg {
-  width: 30%;
-  display: block;
-  margin: -5vh auto;
-}
 .more {
   text-decoration: none;
   color: #ffffff;
@@ -77,7 +72,7 @@ ul li {
 }
 ul li a {
   text-decoration: none;
-  padding: 0 3%;
+  padding: 5% 0;
 }
 .teal-button {
   background-color: #04B486;
@@ -207,6 +202,11 @@ header .header-text .button {
 #parents ul li a i {
   color: #848484;
 }
+#badge1 .badge1 {
+  width: 12%;
+  display: block;
+  margin: -8vh auto;
+}
 #dates h4 {
   font-size: 1em;
 }
@@ -247,6 +247,11 @@ header .header-text .button {
 #countdown-container #countdown .count p {
   text-transform: uppercase;
   font-weight: bold;
+}
+#our-story #badge2 .badge2 {
+  width: 12%;
+  display: block;
+  margin: -4vh auto;
 }
 #our-story h4 {
   font-weight: 300;
