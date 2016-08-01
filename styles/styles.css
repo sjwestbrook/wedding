@@ -248,7 +248,7 @@ header .header-text .button {
   text-transform: uppercase;
   font-weight: bold;
 }
-#our-story img .badge2 {
+#our-story #badge2 img .badge2 {
   width: 12%;
   display: block;
   margin: -4vh auto;
