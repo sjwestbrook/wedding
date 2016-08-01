@@ -26,7 +26,6 @@ body {
   width: 75%;
   margin: 0 auto;
   background-color: #ffffff;
-  border-bottom-left-radius: 2em;
 }
 #parents,
 #dates,
@@ -134,8 +133,8 @@ header nav ul li a {
 }
 header .header-text {
   position: absolute;
-  top: 25%;
-  left: 33%;
+  top: 33%;
+  left: 40%;
   color: #ffffff;
   text-align: center;
 }
