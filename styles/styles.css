@@ -453,6 +453,7 @@ header .header-text .button {
 #gallery .photos ul li img {
   width: 100%;
   height: auto;
+  margin-bottom: 2%;
 }
 #gift-registry .icon-p {
   margin: 0 auto;
