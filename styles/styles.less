@@ -33,21 +33,7 @@
   text-transform: uppercase;
 }
 
-.unordered-list {
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-align: center;	
-    li {
-      display: inline;
-      a {
-        text-decoration: none;
-        padding: 5% 0;
-      }
-    }
-  }	
-}
+  	
 
 
 // ELEMENTS
@@ -89,19 +75,19 @@ p {
 }
 
 
-// ul {
-//   margin: 0;
-//   padding: 0;
-//   list-style-type: none;
-//   text-align: center;	
-//   li {
-//     display: inline;
-//     a {
-//       text-decoration: none;
-//       padding: 5% 0;
-//     }
-//   }
-// }
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;	
+  li {
+    display: inline;
+    a {
+      text-decoration: none;
+      padding: 5% 0;
+    }
+  }
+}
 
 
 .teal-button {
@@ -233,19 +219,36 @@ header {
     margin-bottom: 5%;
   }
   ul {
-    .social {
-      .unordered-list;
-      padding: 0 3%;
-      color: @dkgrey;
+    margin: 0;
+    padding: 0 3%;
+    list-style-type: none;
+    text-align: center;	
+    li {
+      display: inline;
+      a {
+        text-decoration: none;
+        padding: 5% 0;
+        i {
+          color: @dkgrey;
+        }
+      }
     }
-    //li {
-    //  a {
-  	 //i {
-  	 // color: @dkgrey;
-  	 //}
-    //  }
-    //}
   }
+
+  //ul {
+  //  .social {
+  //    .unordered-list;
+  //    padding: 0 3%;
+  //    color: @dkgrey;
+  //  }
+  //  //li {
+  //  //  a {
+  //	 //i {
+  //	 // color: @dkgrey;
+  //	 //}
+  //  //  }
+  //  //}
+  //}
 }
 
 #badge1 {
