@@ -201,12 +201,12 @@ header .header-text .button {
 }
 #parents ul {
   margin: 0;
-  padding: 0 3%;
   list-style-type: none;
   text-align: center;
 }
 #parents ul li {
   display: inline;
+  margin: 0 5%;
 }
 #parents ul li a {
   text-decoration: none;
