@@ -15,6 +15,11 @@
   border-radius: 2.5px;
   text-transform: uppercase;
 }
+.badge2 {
+  width: 12%;
+  display: block;
+  margin: -10vh auto 8vh auto;
+}
 html,
 body {
   padding: 0;
@@ -247,11 +252,6 @@ header .header-text .button {
 #countdown-container #countdown .count p {
   text-transform: uppercase;
   font-weight: bold;
-}
-#our-story #badge2 img .badge2 {
-  width: 12%;
-  display: block;
-  margin: -4vh auto;
 }
 #our-story h4 {
   font-weight: 300;
