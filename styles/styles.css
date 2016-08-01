@@ -15,19 +15,6 @@
   border-radius: 2.5px;
   text-transform: uppercase;
 }
-.unordered-list ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
-}
-.unordered-list ul li {
-  display: inline;
-}
-.unordered-list ul li a {
-  text-decoration: none;
-  padding: 5% 0;
-}
 html,
 body {
   padding: 0;
@@ -73,6 +60,19 @@ h6 {
 p {
   line-height: 1.5em;
   font-size: 1em;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+ul li {
+  display: inline;
+}
+ul li a {
+  text-decoration: none;
+  padding: 5% 0;
 }
 .teal-button {
   background-color: #04B486;
@@ -199,22 +199,21 @@ header .header-text .button {
 #parents p {
   margin-bottom: 5%;
 }
-#parents ul .social {
-  padding: 0 3%;
-  color: #848484;
-}
-#parents ul .social ul {
+#parents ul {
   margin: 0;
-  padding: 0;
+  padding: 0 3%;
   list-style-type: none;
   text-align: center;
 }
-#parents ul .social ul li {
+#parents ul li {
   display: inline;
 }
-#parents ul .social ul li a {
+#parents ul li a {
   text-decoration: none;
   padding: 5% 0;
+}
+#parents ul li a i {
+  color: #848484;
 }
 #badge1 .badge1 {
   width: 12%;
