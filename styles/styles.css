@@ -99,7 +99,7 @@ header {
   margin-bottom: 5%;
 }
 header img {
-  width: 10%;
+  width: 100%;
   height: auto;
 }
 header nav {
@@ -121,6 +121,9 @@ header nav ul {
 header nav ul li {
   display: inline-block;
   padding: 0 2.5%;
+}
+header nav ul li .logo img {
+  width: 5%;
 }
 header nav ul li a {
   display: block;
