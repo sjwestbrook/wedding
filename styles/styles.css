@@ -448,10 +448,10 @@ header .header-text .button {
   columns: 2;
 }
 #gallery .photos ul {
-  width: 90%;
+  width: 100%;
 }
 #gallery .photos ul li img {
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 #gift-registry .icon-p {
