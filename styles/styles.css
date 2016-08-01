@@ -430,6 +430,7 @@ header .header-text .button {
 }
 #rsvp form {
   background-color: #ffffff;
+  opacity: .98;
   margin: 5% auto;
   padding: 5%;
   width: 60%;
