@@ -19,31 +19,47 @@
 <body>
   <div class="container">
   <header>
-    <nav>
-      <ul>
-        <li class="logo">
-          <img src="/images/logo.png" alt="" />
-        </li>
-        <li>
-          <a href="#" title="">Ceremony</a>
-        </li>
-        <li>
-          <a href="#" title="">Our Story</a>
-        </li>
-        <li>
-          <a href="#" title="">People</a>
-        </li>
-        <li>
-          <a href="#" title="">Blog</a>
-        </li>
-        <li>
-          <a href="#" title="">RSVP</a>
-        </li>
-        <li>
-          <a href="#" title="">Gallery</a>
-        </li>
-      </ul>
-    </nav>
+    
+    <div class="menu">
+      <i class="fa fa-bars" onclick="dropDown()">
+        <div id="myDropdown" class="dropdown-content">
+            <a class="menuFont" href="#dates">Ceremony</a>
+            <a class="menuFont" href="#our-story">Our Story</a>
+            <a class="menuFont" href="#people">People</a>
+            <a class="menuFont" href="#blog">Blog</a>
+            <a class="menuFont" href="#rsvp">RSVP</a>
+            <a class="menuFont" href="#gallery">Gallery</a>
+            <a class="menuFont" href="#gift-registry">Registries</a>
+        </div>
+    <!--    </button>-->
+      </i>
+    </div><!-- end menu -->
+    
+    <!--<nav>-->
+    <!--  <ul>-->
+    <!--    <li class="logo">-->
+    <!--      <img src="/images/logo.png" alt="" />-->
+    <!--    </li>-->
+    <!--    <li>-->
+    <!--      <a href="#" title="">Ceremony</a>-->
+    <!--    </li>-->
+    <!--    <li>-->
+    <!--      <a href="#" title="">Our Story</a>-->
+    <!--    </li>-->
+    <!--    <li>-->
+    <!--      <a href="#" title="">People</a>-->
+    <!--    </li>-->
+    <!--    <li>-->
+    <!--      <a href="#" title="">Blog</a>-->
+    <!--    </li>-->
+    <!--    <li>-->
+    <!--      <a href="#" title="">RSVP</a>-->
+    <!--    </li>-->
+    <!--    <li>-->
+    <!--      <a href="#" title="">Gallery</a>-->
+    <!--    </li>-->
+    <!--  </ul>-->
+    <!--</nav>-->
     
     <!--styles for this section must be redone-->
     <div class="header-text">
@@ -519,6 +535,9 @@
 
   </div><!-- end container -->
   
+  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script type="text/javascript" src="dropdown.js"></script>
 </body>
 
 </html>
