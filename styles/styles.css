@@ -277,7 +277,8 @@ header .header-text .button {
   justify-content: space-between;
   align-items: center;
 }
-#our-story .storyline .col1 .entry1 {
+#our-story .storyline .col1 .entry1,
+#our-story .storyline .col1 .entry2 {
   margin: 20% 0;
 }
 #our-story .storyline .col3 .entry1 {
