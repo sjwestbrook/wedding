@@ -33,7 +33,21 @@
   text-transform: uppercase;
 }
 
-
+.unordered-list {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;	
+    li {
+      display: inline;
+      a {
+        text-decoration: none;
+        padding: 5% 0;
+      }
+    }
+  }	
+}
 
 
 // ELEMENTS
@@ -74,19 +88,20 @@ p {
   font-size: 1em;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;	
-  li {
-    display: inline;
-    a {
-      text-decoration: none;
-      padding: 5% 0;
-    }
-  }
-}
+
+// ul {
+//   margin: 0;
+//   padding: 0;
+//   list-style-type: none;
+//   text-align: center;	
+//   li {
+//     display: inline;
+//     a {
+//       text-decoration: none;
+//       padding: 5% 0;
+//     }
+//   }
+// }
 
 
 .teal-button {
@@ -218,13 +233,18 @@ header {
     margin-bottom: 5%;
   }
   ul {
-    li {
-      a {
-  	 i {
-  	  color: @dkgrey;
-  	 }
-      }
+    .social {
+      .unordered-list;
+      padding: 0 3%;
+      color: @dkgrey;
     }
+    //li {
+    //  a {
+  	 //i {
+  	 // color: @dkgrey;
+  	 //}
+    //  }
+    //}
   }
 }
 
