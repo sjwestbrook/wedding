@@ -133,8 +133,9 @@ header nav ul li a {
   opacity: 1;
 }
 header .header-text {
-  z-index: 10;
-  margin: 10% auto;
+  position: absolute;
+  top: 25%;
+  left: 33%;
   color: #ffffff;
   text-align: center;
 }
