@@ -4,6 +4,11 @@
   padding: 2%;
   border-radius: 50%;
 }
+.circle-image-lg {
+  color: #04B486;
+  display: block;
+  margin: 0 auto;
+}
 .more {
   text-decoration: none;
   color: #ffffff;
