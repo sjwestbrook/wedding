@@ -17,6 +17,8 @@
 }
 .portrait {
   border-radius: 50%;
+  width: 50%;
+  margin-bottom: 5%;
 }
 html,
 body {
