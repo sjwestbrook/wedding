@@ -1,6 +1,3 @@
-.padding-5 {
-  padding: 0 5%;
-}
 .section-icon {
   color: white;
   background-color: #D8D8D8;
@@ -279,6 +276,12 @@ header .header-text .button {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
+}
+#our-story .storyline .col1 .entry1 {
+  margin: 20% 0;
+}
+#our-story .storyline .col3 .entry1 {
+  margin: 20% 0;
 }
 #people {
   color: #ffffff;
