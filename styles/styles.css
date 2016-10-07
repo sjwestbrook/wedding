@@ -514,6 +514,641 @@ header .header-text .button {
   height: auto;
   padding: 0 5%;
 }
+#church {
+  /*  COLUMN SETUP  */
+  /*  GROUPING  */
+  /*  GRID OF TWO  */
+  /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+}
+#church .more-padding {
+  padding: 2% 2.25%;
+}
+#church .section-icon {
+  color: white;
+  background-color: #D8D8D8;
+  padding: 2%;
+  border-radius: 50%;
+}
+#church .more {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #BDBDBD;
+  font-size: .7em;
+  letter-spacing: .4em;
+  padding: 4%;
+  margin-top: 4%;
+  border-radius: 2.5px;
+  text-transform: uppercase;
+}
+#church .portrait {
+  border-radius: 50%;
+  width: 35%;
+  margin-bottom: 5%;
+}
+#church html,
+#church body {
+  padding: 0;
+  margin: 0;
+  background-color: #f2f2f2;
+  font-family: 'Raleway', sans-serif;
+}
+#church .container {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+#church #parents,
+#church #dates,
+#church #our-story,
+#church #people,
+#church #blog,
+#church #gallery,
+#church #gift-registry {
+  padding: 0 5%;
+}
+#church #parents,
+#church #dates,
+#church #our-story,
+#church #people,
+#church #blog,
+#church #countdown-container,
+#church #gallery,
+#church #gift-registry,
+#church #rsvp {
+  margin-bottom: 8%;
+}
+#church h1,
+#church h2,
+#church h3,
+#church h4,
+#church h5,
+#church h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  text-align: center;
+}
+#church p {
+  line-height: 1.5em;
+  font-size: 1em;
+}
+#church ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+#church ul li {
+  display: inline;
+}
+#church ul li a {
+  text-decoration: none;
+  padding: 5% 0;
+}
+#church .teal-button {
+  background-color: #04B486;
+  border: none;
+  border-radius: 2.5px;
+  color: #ffffff;
+  padding: 2% 5%;
+  text-align: center;
+  letter-spacing: .2em;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8em;
+  margin: 5% auto;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+#church .circle-image {
+  max-width: 60%;
+  margin: 5% 0;
+}
+#church header {
+  position: relative;
+  margin-bottom: 5%;
+}
+#church header img {
+  width: 100%;
+  height: auto;
+}
+#church header nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #1C1C1C;
+  opacity: 0.8;
+  height: 10%;
+  width: 100%;
+  padding-top: 4%;
+}
+#church header nav ul {
+  font-size: .9em;
+  letter-spacing: .1em;
+  height: 5%;
+  width: 100%;
+  list-style-type: none;
+}
+#church header nav ul li {
+  display: inline-block;
+  padding: 0 2.5%;
+}
+#church header nav ul li .logo img {
+  width: 5%;
+}
+#church header nav ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  opacity: 1;
+}
+#church header .header-text {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  right: 30%;
+  color: #ffffff;
+  text-align: center;
+}
+#church header .header-text h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin: 0 auto -3%;
+  text-transform: none;
+}
+#church header .header-text h1 {
+  font-family: 'Vesper Libre', serif;
+  font-size: 2.5em;
+  font-weight: 400;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+#church header .header-text h1 i {
+  font-size: .8em;
+}
+#church header .header-text h3 {
+  font-size: 1.15em;
+  margin: -5% auto 5%;
+  text-transform: uppercase;
+}
+#church header .header-text p {
+  font-weight: 200;
+  margin: -5% auto 8%;
+  text-transform: uppercase;
+}
+#church header .header-text .button {
+  background-color: #04B486;
+  border: none;
+  border-radius: 2.5px;
+  color: #ffffff;
+  padding: 2% 5%;
+  text-align: center;
+  letter-spacing: .2em;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8em;
+  margin: 5% auto;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+#church #parents {
+  text-align: center;
+}
+#church #parents h4 {
+  font-size: 1em;
+  margin: 1% 0;
+}
+#church #parents h3 {
+  font-family: 'Vesper Libre', serif;
+  font-size: 1.5em;
+  margin: 1% 0;
+}
+#church #parents .invitation {
+  font-size: 1.75em;
+  padding: 0 5%;
+}
+#church #parents p {
+  margin-bottom: 5%;
+}
+#church #parents ul {
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+}
+#church #parents ul li {
+  display: inline;
+  margin: 0 3%;
+}
+#church #parents ul li a {
+  text-decoration: none;
+  padding: 5% 0;
+}
+#church #parents ul li a i {
+  color: #848484;
+}
+#church #badge1 .badge1 {
+  width: 12%;
+  display: block;
+  margin: -8vh auto -2vh auto;
+}
+#church #dates h4 {
+  font-size: 1em;
+}
+#church #dates .important-dates {
+  font-size: 1em;
+}
+#church #dates .important-dates li {
+  display: block;
+  padding: 1% 0;
+  text-align: center;
+}
+#church #countdown-container {
+  color: #ffffff;
+  background-image: url(../images/flag2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15% 0;
+  text-align: center;
+}
+#church #countdown-container #countdown {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10%;
+}
+#church #countdown-container #countdown .count {
+  width: 12%;
+}
+#church #countdown-container #countdown .count .number {
+  color: #848484;
+  background-color: #ffffff;
+  font-size: 3.5em;
+  padding: 5%;
+}
+#church #countdown-container #countdown .count p {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#church #our-story .badge2 {
+  width: 12%;
+  display: block;
+  margin: -3vh auto 3vh auto;
+}
+#church #our-story h4 {
+  font-weight: 300;
+}
+#church #our-story .storyline {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#church #our-story .storyline .col1 .entry1,
+#church #our-story .storyline .col1 .entry2 {
+  margin: 20% 0;
+}
+#church #our-story .storyline .col3 .entry1 {
+  margin: 20% 0;
+}
+#church #people {
+  color: #ffffff;
+  background-image: url(../images/flag3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5%;
+}
+#church #people .icon-p {
+  margin: 0 auto;
+  text-align: center;
+}
+#church #people .icon-p i {
+  color: white;
+  background-color: #D8D8D8;
+  padding: 2%;
+  border-radius: 50%;
+}
+#church #people .person {
+  padding: 1em;
+  background-color: #1C1C1C;
+  opacity: 0.6;
+  width: 80%;
+  margin: 5%;
+}
+#church #people .person img {
+  width: 25%;
+  float: left;
+  margin: 5% 5% 0 0;
+}
+#church #people .person .person-text .quote {
+  font-size: .8em;
+  line-height: 1.5em;
+}
+#church #people .person .person-text .name {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+#church #people .person .person-text .relationship {
+  font-size: .6em;
+  font-weight: bold;
+  margin-top: 0;
+}
+#church .section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+#church .col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+}
+#church .col:first-child {
+  margin-left: 0;
+}
+#church .group:before,
+#church .group:after {
+  content: "";
+  display: table;
+}
+#church .group:after {
+  clear: both;
+}
+#church .group {
+  zoom: 1;
+  /* For IE 6/7 */
+}
+#church .span_2_of_2 {
+  width: 100%;
+}
+#church .span_1_of_2 {
+  width: 49.2%;
+}
+@media only screen and (max-width: 480px) {
+  #church .col {
+    margin: 1% 0 1% 0%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #church .span_2_of_2,
+  #church .span_1_of_2 {
+    width: 100%;
+  }
+}
+#church #blog .icon-p {
+  margin: 0 auto;
+  text-align: center;
+}
+#church #blog .icon-p i {
+  color: white;
+  background-color: #D8D8D8;
+  padding: 2%;
+  border-radius: 50%;
+}
+#church #blog .blog-entries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-between;
+}
+#church #blog .blog-entries .entry {
+  text-align: left;
+  width: 30%;
+  margin: 0 auto;
+}
+#church #blog .blog-entries .entry img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+#church #blog .blog-entries .entry h4 {
+  color: #BDBDBD;
+  font-size: .8em;
+  margin: 0 auto;
+}
+#church #blog .blog-entries .entry .entry a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #BDBDBD;
+  font-size: .7em;
+  letter-spacing: .4em;
+  padding: 4%;
+  margin-top: 4%;
+  border-radius: 2.5px;
+  text-transform: uppercase;
+}
+#church #rsvp {
+  background-image: url(../images/flag1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 8% 0;
+}
+#church #rsvp h2 {
+  color: white;
+}
+#church #rsvp form {
+  background-color: #ffffff;
+  opacity: .98;
+  margin: 5% auto;
+  padding: 5%;
+  width: 60%;
+}
+#church #rsvp form div {
+  padding-bottom: 2%;
+}
+#church #rsvp form div label {
+  text-transform: uppercase;
+  color: #848484;
+  font-size: .8em;
+}
+#church #rsvp form div input {
+  color: #848484;
+  background-color: #f2f2f2;
+  border-radius: 3px;
+  width: 100%;
+  height: 1.75em;
+}
+#church #rsvp form div button {
+  background-color: #04B486;
+  border: none;
+  border-radius: 2.5px;
+  color: #ffffff;
+  padding: 2% 5%;
+  text-align: center;
+  letter-spacing: .2em;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8em;
+  margin: 5% auto;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 100%;
+}
+#church #gallery .icon-p {
+  margin: 0 auto;
+  text-align: center;
+}
+#church #gallery .icon-p i {
+  color: white;
+  background-color: #D8D8D8;
+  padding: 2%;
+  border-radius: 50%;
+}
+#church #gallery .photos {
+  columns: 2;
+}
+#church #gallery .photos ul {
+  width: 100%;
+}
+#church #gallery .photos ul li img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2%;
+}
+#church #gift-registry .icon-p {
+  margin: 0 auto;
+  text-align: center;
+}
+#church #gift-registry .icon-p i {
+  color: white;
+  background-color: #D8D8D8;
+  padding: 2%;
+  border-radius: 50%;
+}
+#church #gift-registry ul li a {
+  padding: 0;
+}
+#church #gift-registry ul li a img {
+  width: 20%;
+  height: auto;
+  padding: 0 5%;
+}
+#church #church img {
+  max-width: 100%;
+  margin-bottom: -2%;
+}
+#church footer {
+  background-color: #1C1C1C;
+  color: #ffffff;
+  text-align: center;
+  padding: 5% 0;
+}
+#church footer h3 {
+  font-size: 1em;
+  margin-bottom: 3%;
+}
+#church footer h3 i {
+  color: #04B486;
+}
+#church footer ul li {
+  padding: 0 1%;
+}
+#church footer ul li a i {
+  color: #1C1C1C;
+  padding: 2%;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+#church footer p {
+  font-size: .6em;
+  margin-top: 3%;
+}
+@media screen and (max-width: 768px) {
+  #church .teal-button {
+    margin: 0 auto;
+  }
+  #church header {
+    position: relative;
+    margin-bottom: 5%;
+  }
+  #church header img {
+    width: 100%;
+    height: auto;
+  }
+  #church header nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1C1C1C;
+    opacity: 0.8;
+    height: 10%;
+    width: 100%;
+    padding-top: 4%;
+  }
+  #church header nav ul {
+    font-size: .2em;
+    letter-spacing: .1em;
+    height: 5%;
+    width: 100%;
+    list-style-type: none;
+  }
+  #church header nav ul li {
+    display: inline-block;
+    padding: 0 2%;
+  }
+  #church header nav ul li .logo img {
+    width: 5%;
+  }
+  #church header nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  #church header .header-text {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    right: 15%;
+    color: #ffffff;
+    text-align: center;
+  }
+  #church header .header-text h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 0 auto -3%;
+    text-transform: none;
+  }
+  #church header .header-text h1 {
+    font-family: 'Vesper Libre', serif;
+    font-size: 2.5em;
+    font-weight: 400;
+    margin: 0 auto;
+    text-transform: uppercase;
+  }
+  #church header .header-text h1 i {
+    font-size: .8em;
+  }
+  #church header .header-text h3 {
+    font-size: 1.15em;
+    margin: -5% auto 5%;
+    text-transform: uppercase;
+  }
+  #church header .header-text p {
+    font-weight: 200;
+    margin: -5% auto 3%;
+    text-transform: uppercase;
+  }
+  #church header .header-text .button {
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #church .header-text {
+    display: none;
+  }
+}
 #church img {
   max-width: 100%;
   margin-bottom: -2%;
