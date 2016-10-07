@@ -739,54 +739,28 @@ footer {
 }
 
 
+@media screen and (max-width:760px){
+  #badge1, #badge2 {
+     display: none;	  
+  }
+}
+
+
 @media screen and (max-width:695px){
   	.teal-button {
 	  margin: 0 auto;
 	}
 	
 	
-// HEADER
+	// HEADER
 	header { 
-	  position: relative;
-	  margin-bottom: 5%;
-	  img {
-	    width: 100%; 
-	    height: auto;
-	  }  
-	  nav {
-	    position: absolute;
-	    top: 0;
-	    left: 0;
-	    background-color: @black;
-	    opacity: 0.8;
-	    height: 10%;
-	    width: 100%;
-	    padding-top: 4%;
 	    ul {
-	      font-size: .2em;
-	      letter-spacing: .1em;
-	      height: 5%;
-	      width: 100%;
-	      list-style-type: none;
+	      font-size: .6em;
 	      li {
-		display: inline-block;
 		padding: 0 2%;
-		.logo {
-		  img {
-			width: 5%;
-		  }
-		}
-		a {
-		  display: block;
-		  color: white;
-		  text-decoration: none;
-		  text-transform: uppercase;
-		  opacity: 1;
-		}
 	      }
 	    }
-	  }
-	  .header-text {
+	   .header-text {
 	    position: absolute;
 	    top: 25%;
 	    left: 15%;
@@ -796,7 +770,6 @@ footer {
 	      margin: 0 auto;
 	    }
 	    p {
-	      font-weight: 200;
 	      margin: -5% auto 3%;
 	      text-transform: uppercase;
 	    }
@@ -805,8 +778,8 @@ footer {
 	    }
 	  }  
 	}
-	
-	// COUNTDOWN
+
+// COUNTDOWN
 	#countdown-container {
 	  #countdown {
 	    .count {
@@ -819,11 +792,7 @@ footer {
 	}
 }
 
-@media screen and (max-width:760px){
-  #badge1, #badge2 {
-     display: none;	  
-  }
-}
+
 
 
 @media screen and (min-width:320px) and (max-width:480px){
