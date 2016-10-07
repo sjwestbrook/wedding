@@ -1,3 +1,6 @@
+.more-padding {
+  padding: 2% 2.25%;
+}
 .section-icon {
   color: white;
   background-color: #D8D8D8;
@@ -536,9 +539,6 @@ footer ul li a i {
   padding: 2%;
   background-color: #ffffff;
   border-radius: 50%;
-}
-footer ul li a i .more-padding {
-  padding: 2% 2.25%;
 }
 footer p {
   font-size: .6em;
