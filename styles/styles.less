@@ -739,6 +739,94 @@ footer {
 }
 
 
+@media screen and (max-width:695px){
+  	.teal-button {
+	  margin: 0 auto;
+	}
+	
+	
+// HEADER
+	header { 
+	  position: relative;
+	  margin-bottom: 5%;
+	  img {
+	    width: 100%; 
+	    height: auto;
+	  }  
+	  nav {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    background-color: @black;
+	    opacity: 0.8;
+	    height: 10%;
+	    width: 100%;
+	    padding-top: 4%;
+	    ul {
+	      font-size: .2em;
+	      letter-spacing: .1em;
+	      height: 5%;
+	      width: 100%;
+	      list-style-type: none;
+	      li {
+		display: inline-block;
+		padding: 0 2%;
+		.logo {
+		  img {
+			width: 5%;
+		  }
+		}
+		a {
+		  display: block;
+		  color: white;
+		  text-decoration: none;
+		  text-transform: uppercase;
+		  opacity: 1;
+		}
+	      }
+	    }
+	  }
+	  .header-text {
+	    position: absolute;
+	    top: 25%;
+	    left: 15%;
+	    right: 15%;
+	    color: @white;
+	    text-align: center;
+	    h2 {
+	      font-family: @cursive;
+	      font-size: 1.5em;
+	      font-weight: 300;
+	      margin: 0 auto -3%;
+	      text-transform: none;
+	    }
+	    h1 {
+	      font-family: @serif;
+	      font-size: 2.5em;
+	      font-weight: 400;
+	      margin: 0 auto;
+	      text-transform: uppercase;
+	      i {
+		font-size: .8em;
+	      }
+	    }
+	    h3 {
+	      font-size: 1.15em;
+	      margin: -5% auto 5%;
+	      text-transform: uppercase;
+	    }
+	    p {
+	      font-weight: 200;
+	      margin: -5% auto 3%;
+	      text-transform: uppercase;
+	    }
+	    .button {
+	      .teal-button;
+	    }
+	  }  
+	}
+}
+
 @media screen and (max-width:760px){
   #badge1, #badge2 {
      display: none;	  
